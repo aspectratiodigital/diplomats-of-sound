@@ -1,0 +1,77 @@
+/* Artist photo carousels: shared pieces first, then one block per style (slide, coverflow, panels). */
+.gallery { --gal-ease: cubic-bezier(.22, .8, .24, 1); }
+
+/* One photo. Very wide photos and posters are shown whole, over a soft blur of themselves. */
+.pic { position: relative; overflow: hidden; width: 100%; height: 100%; background: var(--tint-2); }
+.pic img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: var(--pos, 50% 50%); opacity: 1; }
+.pic.land::before { content: ''; position: absolute; inset: -12%; background: var(--bg) center / cover; filter: blur(22px) saturate(1.1); }
+.pic.flat::before { inset: 0; background: var(--flat); filter: none; }
+.pic.land img { object-fit: contain; }
+.gallery img { -webkit-user-drag: none; user-select: none; }
+.gallery ul, .gallery ol { margin: 0; padding: 0; list-style: none; }
+.gallery .frame { transform: none; aspect-ratio: 5 / 6; }
+
+/* The slow zoom-out on the photo that is showing */
+@keyframes gal-zoom { from { transform: scale(1.14) translate(1.6%, 1.2%); } to { transform: scale(1.02) translate(-1%, -.6%); } }
+
+/* Controls under the photos: counter, progress line, pause, back, forward */
+.gal-bar { display: flex; align-items: center; gap: .5rem; margin-top: 2rem; }
+.gal-count { padding: .45rem .75rem; background: var(--black); color: var(--gold); font-weight: 600; font-size: .85rem; letter-spacing: .04em; white-space: nowrap; }
+.gal-count b { font-weight: 600; }
+.gal-prog { position: relative; flex: 1; height: 3px; margin-inline: .35rem; background: var(--line); overflow: hidden; }
+.gal-prog::after { content: ''; position: absolute; inset: 0; background: var(--brass-bright); transform: scaleX(var(--p, 0)); transform-origin: left; }
+.gal-btn { display: grid; place-items: center; width: 2.6rem; height: 2.6rem; padding: 0; border: 2px solid var(--gold); background: var(--gold); color: var(--black); cursor: pointer; transition: background-color .2s, color .2s, border-color .2s, transform .15s; }
+.gal-btn svg { width: 1.15rem; height: 1.15rem; }
+.gal-btn:hover, .gal-btn:focus-visible { background: var(--black); color: var(--gold); border-color: var(--black); }
+.gal-btn:active { transform: scale(.92); }
+.gal-btn .i-play { display: none; }
+.gallery[data-stopped='true'] .gal-btn .i-pause { display: none; }
+.gallery[data-stopped='true'] .gal-btn .i-play { display: block; }
+.gal-cap { margin: .9rem 0 0; min-height: 3em; font-size: .92rem; color: var(--ink-2); max-width: 30rem; }
+.gal-cap span { display: block; font-size: .85rem; color: var(--brass); }
+@media (max-width: 860px) { .gallery { max-width: 34rem; } .gal-bar { margin-top: 1.5rem; } }
+
+/* ---------- Style: slide (the default). A strip you can swipe, that also moves on its own. ---------- */
+.slides { position: absolute; inset: 0; display: flex; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.slides::-webkit-scrollbar { display: none; }
+.slides:focus-visible { outline: 3px solid var(--black); outline-offset: -3px; }
+.slides.jump { animation: gal-jump .55s var(--gal-ease); }
+@keyframes gal-jump { from { opacity: .15; } to { opacity: 1; } }
+.slide { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; }
+.slide .pic img { transform: scale(1.14); }
+.slide.is-current .pic img, .slide.was .pic img { animation: gal-zoom 8s linear forwards; }
+
+/* ---------- Style: coverflow. Photos on a 3D wheel; click a side photo or drag to turn it. ---------- */
+.gal-coverflow .frame { background: none; box-shadow: none; }
+.gal-coverflow .frame:hover { box-shadow: none; }
+.cflow { overflow: hidden; touch-action: pan-y; user-select: none; -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
+.cf-stage { position: absolute; inset: 0; perspective: 1000px; perspective-origin: 50% 45%; }
+.cf { --d: 0; --ad: 0; position: absolute; left: 50%; top: 50%; width: 78%; aspect-ratio: 4 / 5; z-index: calc(10 - var(--ad));
+  transform: translate(-50%, -50%) translateX(calc(var(--d) * 60%)) translateZ(calc(var(--ad) * -150px)) rotateY(calc(var(--d) * -40deg));
+  opacity: calc(1 - var(--ad) * .3); filter: brightness(calc(1 - var(--ad) * .2));
+  box-shadow: 0 24px 40px -20px rgba(28, 26, 21, .55); transition: transform .8s var(--gal-ease), opacity .6s, filter .6s; cursor: pointer; }
+.cf[data-active='true'] { cursor: grab; }
+.cf[data-far='true'] { opacity: 0; pointer-events: none; }
+.cflow.dragging .cf { transition-duration: .2s; }
+.cf .pic img { transform: scale(1.14); }
+.cf[data-active='true'] .pic img, .cf.was .pic img { animation: gal-zoom 8s linear forwards; }
+
+/* ---------- Style: panels. Slim strips; the open one widens, and it walks along by itself. ---------- */
+.panels { position: absolute; inset: 0; display: flex; gap: 4px; container-type: inline-size; background: var(--black); }
+.panel { position: relative; flex: 1 1 0; min-width: 0; overflow: hidden; transition: flex-grow .85s var(--gal-ease); }
+.panel.on { flex-grow: 6; }
+.panel .pic { position: absolute; top: 0; bottom: 0; left: 50%; width: 76cqw; height: auto; transform: translateX(-50%); }
+.panel .pic img { filter: grayscale(.55) brightness(.72); transform: scale(1.14); transition: filter .6s; }
+.panel.on .pic img, .panel.was .pic img { animation: gal-zoom 8s linear forwards; }
+.panel.on .pic img { filter: none; }
+.panel:not(.on):hover .pic img { filter: grayscale(.15) brightness(.9); }
+.panel-btn { position: absolute; inset: 0; z-index: 2; width: 100%; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.panel-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: -4px; }
+.panel-num { position: absolute; left: 50%; bottom: .9rem; transform: translateX(-50%); padding: .2rem .45rem; background: var(--gold); color: var(--black); font-weight: 600; font-size: .78rem; letter-spacing: .05em; transition: background-color .3s, color .3s; }
+.panel.on .panel-num { background: var(--black); color: var(--gold); }
+
+@media (prefers-reduced-motion: reduce) {
+  .slide .pic img, .cf .pic img, .panel .pic img { animation: none !important; transform: none; }
+  .cf, .panel { transition: none !important; }
+  .slides.jump { animation: none; }
+}
