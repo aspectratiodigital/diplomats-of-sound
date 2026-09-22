@@ -1,0 +1,62 @@
+{
+  "name": "Diplomats of Sound",
+  "url": "https://www.diplomatsofsound.org",
+  "founded": 2010,
+  "email": "admin@diplomatsofsound.com",
+  "social": {
+    "instagram": "https://www.instagram.com/diplomatsofsound",
+    "facebook": "https://www.facebook.com/diplomatsofsound",
+    "youtube": "https://www.youtube.com/@diplomatsofsound"
+  },
+  "chai": "https://www.chaiwallahs.co.uk",
+  "upcoming": [
+    {
+      "artist": "Amy True",
+      "slug": "amy-true",
+      "title": "Europe tour",
+      "when": "November 2026",
+      "where": "Bristol, Maribor, Vienna, Innsbruck, Salzburg, Bern, Basel",
+      "tickets": ""
+    },
+    {
+      "artist": "The Mouse Outfit",
+      "slug": "the-mouse-outfit",
+      "title": "UK tour",
+      "when": "15 October to 6 November 2026",
+      "where": "10 UK dates, from York to Manchester",
+      "tickets": "https://www.fatsoma.com/p/the-mouse-outfit/events"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1999",
+      "text": "Chai Wallahs begins at Glastonbury Festival as a chai stall and herbal emporium."
+    },
+    {
+      "year": "2007",
+      "text": "Chai Wallahs opens a live music stage and becomes a home for emerging independent artists."
+    },
+    {
+      "year": "2010",
+      "text": "Si Chai and Thomas Smallwood (Toast) start Diplomats of Sound, with Joss Stone's support, to help the artists they were discovering keep going."
+    },
+    {
+      "year": "2019",
+      "text": "A busy year of tours for Nubya Garcia (North America), Theon Cross, Ozomatli ft. Chali 2na, Johnny Osbourne, Brushy One String, Maisha, Liniker e os Caramelows and Open Mike Eagle."
+    },
+    {
+      "year": "2021",
+      "text": "UK tours for The Mouse Outfit and The Allergies."
+    },
+    {
+      "year": "2026",
+      "text": "Amy True on tour across the UK and Europe, The Hempolics in London, and The Mouse Outfit back on the road this autumn."
+    }
+  ],
+  "grassroots": "https://www.grassrootsrising.org",
+  "instagram": {
+    "handle": "diplomatsofsound",
+    "url": "https://www.instagram.com/diplomatsofsound",
+    "feedUrl": ""
+  }
+}

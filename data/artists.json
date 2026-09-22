@@ -1,0 +1,666 @@
+[
+  {
+    "slug": "amy-true",
+    "name": "Amy True",
+    "genres": [
+      "Hip-Hop"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "Politicised hip-hop with jazz and soul at its core.",
+    "bio": "British-born poet and songwriter of Irish and Ugandan heritage. Since 2011 Amy True has made politicised hip-hop fused with jazz and soul: conscious, iconoclastic verse set against melodic hooks and rich jazz instrumentation.",
+    "highlights": [
+      "Touring the UK and Europe since 2011",
+      "November 2026 tour: Bristol, Maribor, Vienna, Innsbruck, Salzburg, Bern, Basel"
+    ],
+    "image": "140ee5_d4c0d79cb72e4b66827ee202a57bedaf~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/amy_true1",
+      "youtube": "https://www.youtube.com/playlist?list=PLrjgvOJgwEnGBZm0o3pb638gWYw6M8hUR"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Amy True, portrait",
+        "w": 800,
+        "h": 533,
+        "pos": "66% 30%"
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Amy True November 2026 tour poster",
+        "w": 720,
+        "h": 720
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Amy True UK and EU tour 2026 poster",
+        "w": 720,
+        "h": 720
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "7oVEKfsDB4c8t7RMPfNyWv"
+  },
+  {
+    "slug": "the-mouse-outfit",
+    "name": "The Mouse Outfit",
+    "genres": [
+      "Hip-Hop"
+    ],
+    "base": "Manchester",
+    "country": "UK",
+    "format": "DJ set, soundsystem with MCs, or 8-piece band",
+    "line": "Jazz-influenced boom bap, from soundsystem to eight-piece band.",
+    "bio": "A hip-hop production collective and live band from Manchester, fronted by MCs Koj and Ayite. Shows scale from DJ sets and soundsystem nights with MCs to a full eight-piece live band, with special guests at selected dates. The sound is jazz-influenced boom bap.",
+    "highlights": [
+      "Three independent studio albums, including Jagged Tooth Crook (2018)",
+      "Collaborations with more than 85 musicians and vocalists",
+      "More than 15 million YouTube views",
+      "UK tour in autumn 2026"
+    ],
+    "image": "140ee5_7c8268b8882242f08ad8f7543156d57d~mv2.png",
+    "links": {
+      "instagram": "https://www.instagram.com/themouseoutfit",
+      "youtube": "https://www.youtube.com/channel/UCUBb0USxbuoWuhkFXo9LPJg"
+    },
+    "fit": "contain",
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "The Mouse Outfit on stage in front of a huge festival crowd",
+        "w": 1400,
+        "h": 533
+      },
+      {
+        "file": "2.jpg",
+        "alt": "The Mouse Outfit live at The Cluny",
+        "w": 1400,
+        "h": 533
+      },
+      {
+        "file": "3.jpg",
+        "alt": "The Mouse Outfit live with the full band",
+        "w": 1400,
+        "h": 533
+      },
+      {
+        "file": "4.jpg",
+        "alt": "The Mouse Outfit October 2026 UK tour poster",
+        "w": 1400,
+        "h": 532,
+        "flat": "#000"
+      }
+    ],
+    "main": {
+      "w": 744,
+      "h": 744
+    },
+    "spotify": "3fZgTHf9UHEA1oLYLEhnk2"
+  },
+  {
+    "slug": "dargz",
+    "name": "Dargz",
+    "genres": [
+      "Jazz",
+      "Hip-Hop",
+      "Soul"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "Hip-hop and soul-infused jazz with more than 120 million streams.",
+    "bio": "New York-born, London-based alt-jazz producer making joyous, hip-hop and soul-infused jazz that mixes hazy nostalgia with inventive production. Debut album Happiness passed 120 million streams. Second album Friends & Family features Mercury Prize-nominated collaborators.",
+    "highlights": [
+      "120+ million streams on debut album Happiness",
+      "Collaborations with Moses Boyd and Joe Webb",
+      "Support from BBC 6 Music, Jazz FM, Clash, Wonderland and SZA"
+    ],
+    "image": "140ee5_3989d79b7e3141f08ccc2a3705a55208~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/dargzmusic"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Dargz playing guitar in the studio",
+        "w": 1400,
+        "h": 1400
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Dargz standing among camellia blossom",
+        "w": 1400,
+        "h": 1400
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Dargz in a patterned suit",
+        "w": 933,
+        "h": 1400
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "0AggcZhPMyJglaaruoxJpN"
+  },
+  {
+    "slug": "the-hempolics",
+    "name": "The Hempolics",
+    "genres": [
+      "Reggae"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "Rootsy modern reggae with soundsystem bass.",
+    "bio": "The Hempolics bring organic, rootsy elements back to contemporary reggae. Led by Grippa Laybourne, the band pairs radio-friendly melodies with soundsystem bass. Laybourne spent years recording internationally acclaimed artists before assembling the band to realise his own vision.",
+    "highlights": [
+      "Single Serious reached number one on the UK reggae chart",
+      "Serious playlisted during Massive Attack's BBC Radio takeover",
+      "London headline show at 229, May 2026"
+    ],
+    "image": "140ee5_b3be6c26c33c4675a802dbdb955603f3~mv2.jpeg",
+    "links": {
+      "instagram": "https://www.instagram.com/hempolics",
+      "youtube": "https://www.youtube.com/@hempolics"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "The Hempolics UK tour poster",
+        "w": 720,
+        "h": 720
+      },
+      {
+        "file": "2.jpg",
+        "alt": "The Tempest, artwork by The Hempolics",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "file": "3.jpg",
+        "alt": "This Is the End, artwork by The Hempolics",
+        "w": 1200,
+        "h": 1200
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "6gTdfUDImVBjuPjAHZGHUS"
+  },
+  {
+    "slug": "kolinga",
+    "name": "Kolinga",
+    "genres": [
+      "Jazz",
+      "Soul",
+      "Hip-Hop"
+    ],
+    "base": "France",
+    "country": "Europe",
+    "format": "Six-piece band",
+    "line": "French, English and Lingala vocals over groove and trance.",
+    "bio": "A French ensemble led by vocalist Rébecca M'Boungou, singing in French, English and Lingala. Drawing on the roots of Black music, Kolinga balances emotional depth with groove, rhythm and trance.",
+    "highlights": [
+      "Vocals in French, English and Lingala",
+      "Rébecca M'Boungou (vocals), Arnaud Estor (guitar), Jérôme Martineau-Ricotti (drums), Nico Martin (bass), Jérémie Poirier-Quinot (keys, flute), Vianney Desplantes (euphonium, flugabone)"
+    ],
+    "image": "140ee5_04f8cd5a69b946349bf3f9f392a99bcb~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/kolingamusic",
+      "youtube": "https://www.youtube.com/@KolingaMusic"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Rébecca M’Boungou of Kolinga",
+        "w": 1200,
+        "h": 575
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Kolinga artwork",
+        "w": 1400,
+        "h": 1400
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "1l4wo8qR1qvFN8aym2xmDM"
+  },
+  {
+    "slug": "plantfood",
+    "name": "Plantfood",
+    "genres": [
+      "Jazz",
+      "Global",
+      "Fusion"
+    ],
+    "base": "Leeds",
+    "country": "UK",
+    "format": "Six-piece band",
+    "line": "Spiritual jazz meets club music, electronic and acoustic.",
+    "bio": "A six-piece jazz ensemble from Leeds combining electronic and acoustic instruments. High-energy sets move from intricate compositions to immersive soundscapes, drawing on The Prodigy, John Coltrane and Nubiyan Twist.",
+    "highlights": [
+      "Six-piece electronic and acoustic line-up",
+      "Recent and upcoming European touring"
+    ],
+    "image": "140ee5_8a5c851c803741fcb307fb8639656927~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/plantfoodband",
+      "youtube": "https://www.youtube.com/channel/UCL4O3XWORHKVicsiZZnB57Q"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Plantfood, the six-piece band",
+        "w": 933,
+        "h": 1400
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Plantfood, group portrait",
+        "w": 933,
+        "h": 1400
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Plantfood UK tour poster",
+        "w": 1119,
+        "h": 1400
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "7cyfKXUHcgckmpciDHSsoR"
+  },
+  {
+    "slug": "matters-unknown",
+    "name": "Matters Unknown",
+    "genres": [
+      "Jazz",
+      "Soul",
+      "Fusion"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "The debut project of Nubiyan Twist's Jonathan Enser.",
+    "bio": "The debut project from Jonathan Enser of Nubiyan Twist, a multi-instrumentalist and composer. The ensemble draws on musicians from the circles of Nerija, Nala Sinephro, Nubya Garcia and Werkha.",
+    "highlights": [
+      "Led by Jonathan Enser of Nubiyan Twist",
+      "Musicians from the Nerija, Nala Sinephro, Nubya Garcia and Werkha circles"
+    ],
+    "image": "140ee5_342534beddbf41f8ae17607e476671e6~mv2.png",
+    "links": {
+      "instagram": "https://www.instagram.com/mattersunknown",
+      "youtube": "https://www.youtube.com/@mattersunknownmusic"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Matters Unknown, The Wind and the Forest",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Matters Unknown artwork",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Matters Unknown artwork",
+        "w": 1200,
+        "h": 1200
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "7nHR9pV23UmS8d7KdqYWJz"
+  },
+  {
+    "slug": "izo-fitzroy",
+    "name": "Izo Fitzroy",
+    "genres": [
+      "R&B",
+      "Soul",
+      "Blues"
+    ],
+    "base": "London",
+    "country": "UK",
+    "format": "Band with up to nine gospel backing vocalists",
+    "line": "Honest songwriting, built for a live room and a gospel choir.",
+    "bio": "A raw, dynamic performer with honest songwriting written for the stage. Sincere lyrics sit over tight, melodic grooves. Her band is unconventional for soul: up to nine gospel backing vocalists make for live shows people talk about.",
+    "highlights": [
+      "Live line-up of up to nine gospel backing vocalists",
+      "Known for unusual vocal arrangements in a soul setting"
+    ],
+    "image": "140ee5_49cb64c9483b4427b353d3894f815588~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/izofitzroy",
+      "youtube": "https://www.youtube.com/channel/UCWatdbbKAxgUHPNDTSWYqWw"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Izo FitzRoy in a woodland clearing",
+        "w": 1400,
+        "h": 1049
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Izo FitzRoy, Body of Mine",
+        "w": 1400,
+        "h": 1400
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Izo FitzRoy, A Good Woman",
+        "w": 1400,
+        "h": 1400
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "50gPQYV9WREGkWM53dNb9r",
+    "carousel": "panels"
+  },
+  {
+    "slug": "kongo-dia-ntotila",
+    "name": "Kongo Dia Ntotila",
+    "genres": [
+      "Global"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "Congolese guitar, jazz and African dance music.",
+    "bio": "KDN draw on rhythmic and sonic traditions from the motherland: beats, bass grooves and the euphoric sunshine of Congolese guitars. African dance music meets jazz, with polyrhythmic guitars, horns and vocals, which they call pure Afro-joy.",
+    "highlights": [
+      "African dance music fused with jazz",
+      "Polyrhythmic guitars, horns and vocals"
+    ],
+    "image": "140ee5_0bda9f7e5e0349e89194d537281d7281~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/KDNSound",
+      "youtube": "https://www.youtube.com/channel/UCcbSfWEPvrAJDtarYFQCbYw"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Kongo Dia Ntotila live on stage",
+        "w": 1400,
+        "h": 1001,
+        "credit": "Katarzyna Borek"
+      },
+      {
+        "file": "2.jpg",
+        "alt": "A dancing crowd at a Kongo Dia Ntotila show",
+        "w": 1400,
+        "h": 933,
+        "credit": "Ila Brugal"
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Kongo Dia Ntotila live in Brixton",
+        "w": 1400,
+        "h": 933,
+        "credit": "Ila Brugal"
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "0kdrViF7FbCWqn92QtQ2h6"
+  },
+  {
+    "slug": "lydian-collective",
+    "name": "Lydian Collective",
+    "genres": [
+      "Jazz",
+      "Fusion"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "Accessible melodies and hypnotic rhythms with a global following.",
+    "bio": "An ensemble blending accessible melodies, accomplished musicianship, hypnotic rhythms and an uplifting feel. Their audience spans the USA, China and Japan, with early UK radio support from Tom Robinson on BBC 6 Music.",
+    "highlights": [
+      "Audiences in the USA, China and Japan",
+      "BBC 6 Music support"
+    ],
+    "image": "140ee5_002c4342f58842f4a1c2614c61dc93b0~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/lydiancollective",
+      "youtube": "https://www.youtube.com/channel/UC4aairTRWwpf1859KJj8yIg"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Lydian Collective, the four-piece band",
+        "w": 1400,
+        "h": 367
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Lydian Collective, Return",
+        "w": 1400,
+        "h": 965
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "5E7gb8Ugqx2c9mCoytD6gw"
+  },
+  {
+    "slug": "wonky-logic",
+    "name": "Wonky Logic",
+    "genres": [
+      "Jazz",
+      "Fusion",
+      "Soul"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "Jazz, club production and cinematic composition from Dwayne Kilvington.",
+    "bio": "Dwayne Kilvington is a Leeds-born, London-based composer, producer and multi-instrumentalist. His work moves across jazz, electronic music and contemporary composition, bringing improvisation, club-influenced production and cinematic writing into one flexible identity. It grew out of collaboration in DIY and community music scenes.",
+    "highlights": [
+      "Composer, producer and multi-instrumentalist",
+      "Roots in DIY and community music scenes"
+    ],
+    "image": "140ee5_e030ac7460f042b6bff5e64c9420b838~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/wonky_logic/",
+      "youtube": "https://www.youtube.com/channel/UC5uxsYpkXjA6I7AxyXqxVQQ"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Wonky Logic",
+        "w": 1000,
+        "h": 500,
+        "credit": "Adama Jalloh"
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Wonky Logic, Mek Do & Mend",
+        "w": 632,
+        "h": 632
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Wonky Logic, Underneath the Same Sky",
+        "w": 632,
+        "h": 632
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "34vOyXYbdhtzvcIWTBQkEl"
+  },
+  {
+    "slug": "franz-von",
+    "name": "Franz Von",
+    "genres": [
+      "Hip-Hop",
+      "Fusion"
+    ],
+    "base": "Sheffield",
+    "country": "UK",
+    "line": "Afro, hip-hop and jazz from the emcee of K.O.G. & The Zongo Brigade.",
+    "bio": "Emcee of the afrofusion collective K.O.G. & The Zongo Brigade and the jazz fusion group TC & The Groove Family. His solo project brings his own mix of Afro, hip-hop and jazz to the stage with a razor-sharp band.",
+    "highlights": [
+      "Emcee of K.O.G. & The Zongo Brigade",
+      "Emcee of TC & The Groove Family (2023 UK tour)",
+      "Solo project launched in 2024"
+    ],
+    "image": "140ee5_fa87dff92d0642c5a4d3201fac3d24ba~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/franzvon_music/"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Franz Von, full-length portrait on blue",
+        "w": 1073,
+        "h": 1600,
+        "credit": "Emma Ledwith"
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Franz Von on the mic",
+        "w": 1600,
+        "h": 1066,
+        "pos": "70% 40%"
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Franz Von seated with arms outstretched",
+        "w": 900,
+        "h": 604,
+        "pos": "55% 50%"
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "0J5vraswqzU2Kcp71etMcR",
+    "carousel": "coverflow"
+  },
+  {
+    "slug": "jackson-mathod",
+    "name": "Jackson Mathod",
+    "genres": [
+      "Songwriter",
+      "Jazz"
+    ],
+    "base": "London",
+    "country": "UK",
+    "line": "Multi-instrumentalist and singer in the line of Miles Davis and Roy Hargrove.",
+    "bio": "A multi-instrumentalist and singer influenced by Miles Davis, Roy Hargrove and Christian Scott. The music celebrates musicianship: have fun, move, and enjoy what the band can do.",
+    "highlights": [
+      "Multi-instrumentalist and singer",
+      "Influenced by Miles Davis, Roy Hargrove and Christian Scott"
+    ],
+    "image": "140ee5_c9e72c7688c044eca946352b109a63f2~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/jacksonmathod",
+      "youtube": "https://www.youtube.com/channel/UC4pvCy08PdkRAie03JRPMpQ"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Jackson Mathod playing trumpet live",
+        "w": 1400,
+        "h": 1400
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Saxophonist on stage with Jackson Mathod",
+        "w": 935,
+        "h": 1400
+      },
+      {
+        "file": "3.jpg",
+        "alt": "Drummer on stage with Jackson Mathod",
+        "w": 1400,
+        "h": 1400
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "6RvLMgatQu3kdjDpYyQnTx"
+  },
+  {
+    "slug": "vincen-garcia",
+    "name": "Vincen Garcia",
+    "genres": [
+      "Funk"
+    ],
+    "base": "Spain",
+    "country": "Europe",
+    "line": "Spanish bassist with 14 years of grit and technical range.",
+    "bio": "A Spanish bassist with more than 14 years of experience, known for a modern sound and a performance full of grit and energy, backed by exceptional technique and invention.",
+    "highlights": [
+      "14+ years as a professional bassist"
+    ],
+    "image": "140ee5_0d06a9ffe4694569846e72a05aa40638~mv2.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/vincen_garcia"
+    },
+    "agent": "Harry",
+    "gallery": [
+      {
+        "file": "1.jpg",
+        "alt": "Vincen García seated with his bass",
+        "w": 934,
+        "h": 1400
+      },
+      {
+        "file": "2.jpg",
+        "alt": "Vincen García in a red doorway",
+        "w": 934,
+        "h": 1400
+      }
+    ],
+    "main": {
+      "w": 1000,
+      "h": 1250
+    },
+    "spotify": "1E17v2QgyFXkqxsHngr6YD"
+  }
+]
