@@ -140,7 +140,7 @@ const home = `
       <p class="lede">Diplomats of Sound is a booking agency run by people who love live music. We look after a roster of independent artists who play all kinds of music, and we work alongside festivals, venues and promoters to make brilliant events happen. It all started on the Chai Wallahs stage, and the grassroots scene is still home.</p>
       <div class="actions">
         <a class="btn btn-primary" href="artists/">Meet the artists</a>
-        <a class="btn btn-secondary" href="contact/">Talk to us</a>
+        <a class="btn btn-secondary" href="contact/">Contact Us</a>
       </div>
     </div>
     <aside class="road" aria-labelledby="road-h">
@@ -314,11 +314,11 @@ function gallery(a) {
   const base = `${root}assets/img/artists/${a.slug}/`;
   const slides = [];
   if (a.fit !== 'contain') slides.push({ src: base + 'main.jpg', alt: a.name, w: a.main.w, h: a.main.h });
-  (a.gallery || []).forEach((g) => slides.push({ src: base + g.file, alt: g.alt, w: g.w, h: g.h, credit: g.credit, flat: g.flat, pos: g.pos }));
+  (a.gallery || []).forEach((g) => slides.push({ src: base + g.file, alt: g.alt, caption: g.caption, w: g.w, h: g.h, credit: g.credit, flat: g.flat, pos: g.pos }));
   const multi = slides.length > 1;
   const style = multi ? (a.carousel || 'slide') : 'slide';
   const pic = (s) => `<div class="pic${s.w / s.h > 1.6 ? ' land' : ''}${s.flat ? ' flat' : ''}" style="--bg:url('${s.src}')${s.flat ? `;--flat:${s.flat}` : ''}${s.pos ? `;--pos:${s.pos}` : ''}"><img src="${s.src}" alt="${esc(s.alt)}" width="${s.w}" height="${s.h}" decoding="async" draggable="false"></div>`;
-  const attrs = (s, i, cls) => `class="${cls}" data-item role="group" aria-roledescription="slide" aria-label="${i + 1} of ${slides.length}" data-caption="${esc(s.alt)}" data-credit="${esc(s.credit || '')}"`;
+  const attrs = (s, i, cls) => `class="${cls}" data-item role="group" aria-roledescription="slide" aria-label="${i + 1} of ${slides.length}" data-caption="${esc(s.caption || s.alt)}" data-credit="${esc(s.credit || '')}"`;
   let stage;
   if (style === 'coverflow') {
     stage = `<div class="frame cflow"><ul class="cf-stage">${slides.map((s, i) => `<li ${attrs(s, i, 'cf')}>${pic(s)}</li>`).join('')}</ul></div>`;
@@ -337,7 +337,7 @@ function gallery(a) {
             <button type="button" class="gal-btn" data-prev aria-label="Previous photo">${arrow('M15 5l-7 7 7 7')}</button>
             <button type="button" class="gal-btn" data-next aria-label="Next photo">${arrow('M9 5l7 7-7 7')}</button>
           </div>` : ''}
-          <p class="gal-cap" data-cap>${esc(slides[0].alt)}${slides[0].credit ? ` <span>Photo: ${esc(slides[0].credit)}</span>` : ''}</p>
+          <p class="gal-cap" data-cap>${esc(slides[0].caption || slides[0].alt)}${slides[0].credit ? ` <span>Photo: ${esc(slides[0].credit)}</span>` : ''}</p>
         </div>
       </div>`;
 }
@@ -486,12 +486,12 @@ const aboutBody = `
     </ol>
   </div>
 </section>
-<section class="cta">
+<section class="cta cta-flush cta-white">
   <div class="wrap cta-grid">
     <h2>Planning a stage, festival or night?</h2>
     <div>
       <p>We are always happy to talk through ideas and line-ups, long before anything is booked.</p>
-      <a class="btn btn-primary" href="../contact/">Talk to us</a>
+      <a class="btn btn-primary" href="../contact/">Contact Us</a>
     </div>
   </div>
 </section>`;

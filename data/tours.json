@@ -1,20 +1,142 @@
 [
-  { "year": 2026, "artist": "Amy True", "title": "UK and EU tour", "date": "8 July 2026", "venue": "UK and EU" },
-  { "year": 2026, "artist": "The Hempolics", "title": "London headline show", "date": "30 May 2026", "venue": "229, London" },
-  { "year": 2024, "artist": "An Dannsa Dub", "title": "March 2024 tour", "date": "8 March 2024", "venue": "Northern Quarter, Manchester" },
-  { "year": 2023, "artist": "Eskimo Nebula", "title": "Autumn 2023 tour", "date": "8 September 2023", "venue": "Mr Wolf's" },
-  { "year": 2023, "artist": "Beatles Dub Club", "title": "Magical Mystery Tour", "date": "14 May 2023", "venue": "Pub in the Park, Wimbledon" },
-  { "year": 2023, "artist": "TC & The Groove Family", "title": "2023 tour", "date": "9 April 2023", "venue": "The Jam Jar" },
-  { "year": 2023, "artist": "The Allergies", "title": "Tear The Place Up tour", "date": "10 March 2023", "venue": "Clwb Ifor Bach, Cardiff" },
-  { "year": 2023, "artist": "The Mouse Outfit", "title": "Spring 2023 tour", "date": "4 March 2023", "venue": "PowerHaus, London" },
-  { "year": 2021, "artist": "The Allergies", "title": "Promised Land UK tour", "date": "22 October 2021", "venue": "Fiddlers, Bristol" },
-  { "year": 2021, "artist": "The Mouse Outfit", "title": "Autumn 2021 tour", "date": "16 October 2021", "venue": "Fiddlers, Bristol" },
-  { "year": 2019, "artist": "Nubya Garcia", "title": "North American tour", "date": "2019", "venue": "North America" },
-  { "year": 2019, "artist": "Theon Cross", "title": "UK tour", "date": "2019", "venue": "UK" },
-  { "year": 2019, "artist": "Ozomatli ft. Chali 2na", "title": "Wake Up UK tour", "date": "2019", "venue": "UK" },
-  { "year": 2019, "artist": "Johnny Osbourne", "title": "Tour", "date": "2019", "venue": "UK" },
-  { "year": 2019, "artist": "Brushy One String", "title": "UK tour", "date": "2019", "venue": "UK" },
-  { "year": 2019, "artist": "Maisha", "title": "UK spring tour", "date": "2019", "venue": "UK" },
-  { "year": 2019, "artist": "Liniker e os Caramelows", "title": "UK and Ireland tour", "date": "2019", "venue": "UK and Ireland" },
-  { "year": 2019, "artist": "Open Mike Eagle", "title": "May tour", "date": "May 2019", "venue": "UK" }
+  {
+    "year": 2026,
+    "artist": "Amy True",
+    "title": "Summer festival tour",
+    "date": "May to August 2026",
+    "venue": "11 festival dates across the UK, Switzerland, Germany and Italy"
+  },
+  {
+    "year": 2026,
+    "artist": "Amy True",
+    "title": "UK and EU tour",
+    "date": "8 July 2026",
+    "venue": "UK and EU"
+  },
+  {
+    "year": 2026,
+    "artist": "The Hempolics",
+    "title": "UK tour",
+    "date": "30 April to 30 May 2026",
+    "venue": "6 UK dates, Leeds to London"
+  },
+  {
+    "year": 2024,
+    "artist": "An Dannsa Dub",
+    "title": "March 2024 tour",
+    "date": "8 March 2024",
+    "venue": "Northern Quarter, Manchester"
+  },
+  {
+    "year": 2023,
+    "artist": "Eskimo Nebula",
+    "title": "Autumn 2023 tour",
+    "date": "8 September 2023",
+    "venue": "Mr Wolf's"
+  },
+  {
+    "year": 2023,
+    "artist": "Beatles Dub Club",
+    "title": "Magical Mystery Tour",
+    "date": "14 May 2023",
+    "venue": "Pub in the Park, Wimbledon"
+  },
+  {
+    "year": 2023,
+    "artist": "TC & The Groove Family",
+    "title": "2023 tour",
+    "date": "9 April 2023",
+    "venue": "The Jam Jar"
+  },
+  {
+    "year": 2023,
+    "artist": "The Allergies",
+    "title": "Tear The Place Up tour",
+    "date": "10 March 2023",
+    "venue": "Clwb Ifor Bach, Cardiff"
+  },
+  {
+    "year": 2023,
+    "artist": "The Mouse Outfit",
+    "title": "Spring 2023 tour",
+    "date": "4 March 2023",
+    "venue": "PowerHaus, London"
+  },
+  {
+    "year": 2021,
+    "artist": "The Allergies",
+    "title": "Promised Land UK tour",
+    "date": "22 October 2021",
+    "venue": "Fiddlers, Bristol"
+  },
+  {
+    "year": 2021,
+    "artist": "The Mouse Outfit",
+    "title": "Autumn 2021 tour",
+    "date": "16 October 2021",
+    "venue": "Fiddlers, Bristol"
+  },
+  {
+    "year": 2019,
+    "artist": "Nubya Garcia",
+    "title": "North American tour",
+    "date": "2019",
+    "venue": "North America"
+  },
+  {
+    "year": 2019,
+    "artist": "Theon Cross",
+    "title": "UK tour",
+    "date": "2019",
+    "venue": "UK"
+  },
+  {
+    "year": 2019,
+    "artist": "Ozomatli ft. Chali 2na",
+    "title": "Wake Up UK tour",
+    "date": "2019",
+    "venue": "UK"
+  },
+  {
+    "year": 2019,
+    "artist": "Johnny Osbourne",
+    "title": "Tour",
+    "date": "2019",
+    "venue": "UK"
+  },
+  {
+    "year": 2019,
+    "artist": "Brushy One String",
+    "title": "UK tour",
+    "date": "2019",
+    "venue": "UK"
+  },
+  {
+    "year": 2019,
+    "artist": "Maisha",
+    "title": "UK spring tour",
+    "date": "2019",
+    "venue": "UK"
+  },
+  {
+    "year": 2019,
+    "artist": "Liniker e os Caramelows",
+    "title": "UK and Ireland tour",
+    "date": "2019",
+    "venue": "UK and Ireland"
+  },
+  {
+    "year": 2019,
+    "artist": "Open Mike Eagle",
+    "title": "May tour",
+    "date": "May 2019",
+    "venue": "UK"
+  },
+  {
+    "year": 2019,
+    "artist": "Kongo Dia Ntotila",
+    "title": "Hootananny show",
+    "date": "14 December 2019",
+    "venue": "Hootananny, Brixton"
+  }
 ]

@@ -187,6 +187,8 @@ img.contain { object-fit: contain; background: #fff; }
 
 /* CTA band */
 .cta { background: var(--tint); padding-block: clamp(3rem, 7vw, 5.5rem); }
+.cta.cta-white { background: var(--chalk); }
+.cta.cta-flush { padding-top: clamp(1.25rem, 3vw, 2rem); }
 .cta-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(1.5rem, 6vw, 6rem); align-items: end; }
 .cta h2 { max-width: 16ch; }
 .cta p { margin-bottom: 1.5rem; color: var(--ink-2); }
@@ -199,8 +201,9 @@ img.contain { object-fit: contain; background: #fff; }
 .chip:active { transform: scale(.96); }
 .chip[aria-pressed='true'] { background: var(--black); color: var(--gold); }
 .count { margin: 1.25rem 0 1.75rem; color: var(--ink-2); font-size: .95rem; }
-.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.25rem 1.5rem; }
-.grid.three { grid-template-columns: repeat(3, 1fr); }
+.grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 2.25rem 1.5rem; }
+.grid > li { flex: 0 1 calc(25% - 1.125rem); max-width: calc(25% - 1.125rem); }
+.grid.three > li { flex-basis: calc(33.333% - 1rem); max-width: calc(33.333% - 1rem); }
 .grid li { transition: opacity .25s ease, transform .25s ease; }
 .grid li.out { opacity: 0; transform: scale(.96); }
 .grid li[hidden] { display: none; }
@@ -308,7 +311,7 @@ input[aria-invalid='true'] { border-color: #a1271c; }
 
 /* Responsive */
 @media (max-width: 1020px) {
-  .grid { grid-template-columns: repeat(3, 1fr); }
+  .grid > li { flex-basis: calc(33.333% - 1rem); max-width: calc(33.333% - 1rem); }
   .services { grid-template-columns: repeat(2, 1fr); }
   .services article:nth-child(3) { border-left: 0; }
   .services article:nth-child(n+3) { border-top: 1px solid rgba(15, 14, 12, .22); }
@@ -332,7 +335,8 @@ input[aria-invalid='true'] { border-color: #a1271c; }
   .ix-genre { grid-area: genre; }
   .ix-base, .ix-go { display: none; }
   .portrait { position: static; max-width: 34rem; }
-  .grid, .grid.three { grid-template-columns: repeat(2, 1fr); gap: 1.75rem 1rem; }
+  .grid, .grid.three { gap: 1.75rem 1rem; }
+  .grid > li, .grid.three > li { flex-basis: calc(50% - .5rem); max-width: calc(50% - .5rem); }
   .upcoming li { grid-template-columns: 1fr; gap: .6rem; }
   .year-block { grid-template-columns: 1fr; gap: .5rem; }
   .foot { grid-template-columns: 1fr; gap: 2rem; }
